@@ -1,19 +1,11 @@
-yum install wget
+wget -O - https://repo.saltstack.com/apt/ubuntu/ubuntu14/latest/SALTSTACK-GPG-KEY.pub | sudo apt-key add -
+echo "deb http://repo.saltstack.com/apt/ubuntu/ubuntu14/latest trusty main" >> /etc/apt/sources.list
 
-wget https://repo.saltstack.com/yum/rhel7/SALTSTACK-GPG-KEY.pub
-rpm --import SALTSTACK-GPG-KEY.pub
-rm -f SALTSTACK-GPG-KEY.pub
+sudo apt-get -y update
 
-sudo cp /vagrant/conf/saltstack.repo /etc/yum.repos.d/saltstack.repo
+apt-get install -y salt-master
+apt-get install -y salt-minion
+apt-get install -y salt-ssh
+apt-get install -y salt-syndic
 
-sudo yum clean expire-cache
-sudo yum update
-
-yum install salt-master
-#yum install salt-minion
-yum install salt-ssh
-yum install salt-syndic
-yum install salt-cloud
-
-chkconfig salt-master on
-service salt-master start
+service salt-master restart
