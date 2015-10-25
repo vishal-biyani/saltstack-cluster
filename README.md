@@ -1,0 +1,1 @@
+# salsstack-cluster
