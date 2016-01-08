@@ -5,6 +5,7 @@ sudo apt-get -y update
 
 apt-get install -y salt-minion
 sudo cp /vagrant/conf/minion /etc/salt
-echo "192.168.17.99 salt" >> /etc/hosts
+sudo cp /vagrant/conf/_schedule.conf /etc/salt/minion.d
+echo "192.168.17.80 salt" >> /etc/hosts
 
 service salt-minion restart

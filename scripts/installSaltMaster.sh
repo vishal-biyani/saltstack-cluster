@@ -8,7 +8,7 @@ apt-get install -y salt-minion
 apt-get install -y salt-ssh
 apt-get install -y salt-syndic
 
-echo "192.168.17.99 salt" >> /etc/hosts
+echo "192.168.17.80 salt" >> /etc/hosts
 sudo cp /vagrant/conf/minion /etc/salt
 sudo cp /vagrant/conf/master /etc/salt
 sudo mkdir -p /srv/formulas 

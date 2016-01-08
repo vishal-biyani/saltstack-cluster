@@ -408,7 +408,6 @@
  file_roots:
    base:
      - /srv/salt/
-     - /srv/formulas/nagios-formula
 #   dev:
 #     - /srv/salt/dev/services
 #     - /srv/salt/dev/states

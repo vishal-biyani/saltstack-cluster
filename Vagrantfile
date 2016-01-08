@@ -10,7 +10,7 @@ MASTER_INSTANCES=1
 AGENT_INSTANCES=2
 
 SALT_SUBNET="192.168.17"
-SALT_MASTER_ADDRESS="192.168.17.99"
+SALT_MASTER_ADDRESS="192.168.17.80"
 
 DOMAIN_NAME="sagent.learn.com"
 
@@ -30,7 +30,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	AGENT_INSTANCES.times do |i|
 		config.vm.define "salt_agent_#{i}" do |sagent|
 			sagent.vm.box = "ubuntu/trusty64"
-			sagent.vm.network "private_network", ip: "#{SALT_SUBNET}.#{i+10}"
+			sagent.vm.network "private_network", ip: "#{SALT_SUBNET}.#{i+50}"
 			sagent.vm.hostname = "#{i}.#{DOMAIN_NAME}"
 			sagent.vm.provider :virtualbox do |vba|
 				vba.customize ["modifyvm", :id, "--memory", AGENT_MEMORY]
