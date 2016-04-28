@@ -1,0 +1,15 @@
+{% set machine_id = salt['grains.get']('id','ERROR: ID_NOT_FOUND') %}
+{% set greeting = salt['pillar.get']('apache:greetings','ERROR: GREETING_NOT_FOUND') %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	</head>
+  	<body>
+  		<div>
+  			<h3> {{ greeting }} </h1>
+  			<h4> Machine ID is: {{ machine_id }} </h4>
+  			<h5> END OF MESSAGE </h5>
+  		</div>
+  	</body>
+</html>

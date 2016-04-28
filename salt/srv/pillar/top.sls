@@ -1,4 +1,4 @@
 base:
   '*':
-    - mine_functions
     - beacon
+    - apache
