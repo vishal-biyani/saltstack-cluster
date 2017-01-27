@@ -4,7 +4,7 @@
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
 
-MASTER_MEMORY=2048
+MASTER_MEMORY=1024
 AGENT_MEMORY=256
 MASTER_INSTANCES=1
 AGENT_INSTANCES=2
