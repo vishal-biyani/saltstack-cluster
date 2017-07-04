@@ -1,8 +1,8 @@
-[Go back home](https://github.com/vishal-biyani/saltstack-cluster)
+[Home](http://vishal-biyani.github.io/saltstack-cluster)
 
-|Previous                | Next              |
-|------------------------|-------------------|
-|[Targetting](../target) |[YAML](../yaml)    |
+|Home       |Previous                | Next              |
+|-----------|------------------------|-------------------|
+|[Home](../)|[Targetting](../target) |[YAML](../yaml)    |
 
 # Grains
 
@@ -332,6 +332,8 @@ smaster.learn.com:
 # Quiz
 TBD
 
-|Previous                | Next              |
-|------------------------|-------------------|
-|[Targetting](../target) |[YAML](../yaml)    |
+|Home       |Previous                | Next              |
+|-----------|------------------------|-------------------|
+|[Home](../)|[Targetting](../target) |[YAML](../yaml)    |
+
+
