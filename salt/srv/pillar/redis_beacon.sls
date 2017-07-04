@@ -1,5 +1,5 @@
 beacons:
   service:
-    apache2:
+    redis-server:
       onchangeonly: True    
 

@@ -3,9 +3,9 @@ echo "deb http://repo.saltstack.com/apt/ubuntu/14.04/amd64/latest trusty main" >
 
 sudo apt-get -y update
 
-apt-get install -y salt-master
-apt-get install -y salt-minion
-apt-get install -y salt-ssh
+sudo apt-get install -y salt-master
+sudo apt-get install -y salt-minion
+sudo apt-get install -y salt-ssh
 
 echo "192.168.17.80 salt" >> /etc/hosts
 sudo cp /vagrant/conf/minion /etc/salt
@@ -15,5 +15,5 @@ sudo mkdir -p /srv/formulas
 sudo mkdir -p /srv/salt
 sudo mkdir -p /srv/pillars
 
-service salt-master restart
-service salt-minion restart
+sudo service salt-master restart
+sudo service salt-minion restart
