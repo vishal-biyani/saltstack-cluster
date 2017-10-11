@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This repo contains the complete hands on workshop on Saltstack. It starts with a basic Salt cluster using Vagrant and then builds form basic concepts to advanced.
+[Saltstack](https://docs.saltstack.com/en/latest/) is a configuration management platform for managing large infrastructure. This workshop sets you up with a small cluster on your laptop and then walks through key concepts with explanations and hands on code & demo. You can follow along the tutorial trail and learn Saltstack. All you need is a laptop with sufficient resources to run a few VMs. 
+
+This site is best viewed [here](http://vishal-biyani.github.io/saltstack-cluster/), if you are viewing on Github do navigate to link above
 
 ## Modules
 
@@ -22,3 +24,5 @@ This repo contains the complete hands on workshop on Saltstack. It starts with a
 |[Salt Beacons](docs/beacon)|Beacons for watching things|
 |[Reactor](docs/reactor)|How to create events and actions|
 |[Orchestration](docs/orchestrate)|Orchestrate complex workflows|
+
+--------

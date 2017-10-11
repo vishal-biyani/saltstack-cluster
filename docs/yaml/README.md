@@ -1,8 +1,7 @@
-[Go back home](https://github.com/vishal-biyani/saltstack-cluster)
 
-|Previous            | Next                  |
-|--------------------|-----------------------|
-|[Grains](../grains) |[Pillar](../pillar)    |
+|Home          |Previous            | Next                  |
+|--------------|--------------------|-----------------------|
+|[Home](../../)|[Grains](../grains) |[Pillar](../pillar)    |
 
 # Yaml
 
@@ -68,6 +67,6 @@ grocery_list:
 
 YAML is really simple if you follow these three basics. A real world YAML will of course be combination of lists and dictionaries. Just make sure to keep 2 spaces between things and you will be fine.
 
-|Previous            | Next                  |
-|--------------------|-----------------------|
-|[Grains](../grains) |[Pillar](../pillar)    |
+|Home          |Previous            | Next                  |
+|--------------|--------------------|-----------------------|
+|[Home](../../)|[Grains](../grains) |[Pillar](../pillar)    |

@@ -1,8 +1,8 @@
-[Go back home](https://github.com/vishal-biyani/saltstack-cluster)
+
 
 |Previous       | Next              |
 |---------------|-------------------|
-|[Home](https://github.com/vishal-biyani/saltstack-cluster) |[Grains](../grains)|
+|[Home](../../) |[Targetting](../target) |
 
 # Setup
 
@@ -128,4 +128,4 @@ Finally we used the Salt CLI for first time from master and executed a simple co
 
 |Previous       | Next              |
 |---------------|-------------------|
-|[Home](https://github.com/vishal-biyani/saltstack-cluster) |[Grains](../grains)|
+|[Home](../../) |[Targetting](../target) |
